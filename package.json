@@ -1,0 +1,25 @@
+{
+  "name": "npm-name-check",
+  "version": "1.0.0",
+  "description": "Check if an npm package name is available",
+  "main": "dist/index.js",
+  "bin": {
+    "npm-check": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["npm", "name", "check", "available", "package", "cli"],
+  "author": "Arephan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arephan/npm-name-check.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  }
+}
